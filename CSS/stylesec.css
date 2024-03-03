@@ -1,0 +1,144 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+    background-color: #ab855c;
+
+}
+
+#encabezado {
+
+    background: #ececec;
+    background-image: url("/img/imagenprin.jpg");
+    background-repeat: no-repeat; /*permitir o no que se repita una imagen*/
+    background-size: 100%;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items:self-start;
+
+    /* background-image: url("/img/logo.png");
+    background-repeat: no-repeat;
+    background-size: 180px 180px;   */
+
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo img{
+
+    width: 60px;
+    height: 60px;
+    margin-right: 5px; /* Espaciado entre el logo y el menú*/
+    margin-top: 0px;
+}
+
+#logo #ElSaborAuténtico{
+    
+    font-size: 20px;
+    color: #333333;
+    font-family:fantasy;
+    text-decoration: none;
+
+}
+ #menu{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    list-style-type: none;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:transparent;
+
+}
+
+#menu ul{
+    list-style-type: none;
+    display: flex;
+
+}
+
+#menu li{
+    
+    float: left;
+    padding: 0px;
+    margin-top: 0px;
+
+}
+
+#menu li a{
+
+    display: block;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+li a:hover{
+    
+    background-color: #faf8f8;
+    opacity: 90%;
+    
+}
+
+.areaPrincipal{ /*Definición de clase*/
+
+
+    width: 100%;
+    height: auto;
+    opacity: 0.7; /*Opacidad de imagen*/
+    -webkit-background-size: 100% 100%; /*  Safari 3.0   */
+    -moz-background-size:    100% 100%; /*  Gecko 1.9.2 (Firefox 3.6)    */
+    -o-background-size:      100% 100%; /*  Opera 9.5   */
+    background-size:         100% 100%; /*  Gecko 2.0 (Firefox 7.0) and other CSS3-copliant browers */
+
+}
+
+#datos{
+
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    opacity: 1;
+    color: #2a3e55;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#datos p{
+    background-color: #d4bc9e;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 12px;
+    color: black;
+    text-align: center;
+}
+
+.piePagina{
+    
+    width: 100%;    /* ancho */
+    height: 100px;  /*  alto */
+    background-color: #15101b; 
+    color: white;
+    bottom: 0;      /*  Espacio de separación parte inferio */
+    position: fixed;
+    left: 0; /*Alineación de contenidos a la izquierda*/
+
+}
